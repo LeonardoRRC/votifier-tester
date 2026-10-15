@@ -1,0 +1,98 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "2f4b85ba0242f251abe2a2cfb267eaa5",
+    "packages": [
+        {
+            "name": "leonardorrc/votifier-client-php",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/LeonardoRRC/votifier-client-php.git",
+                "reference": "50faa2f531938932d6a97d33c96036c4a53e934d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/LeonardoRRC/votifier-client-php/zipball/50faa2f531938932d6a97d33c96036c4a53e934d",
+                "reference": "50faa2f531938932d6a97d33c96036c4a53e934d",
+                "shasum": ""
+            },
+            "require": {
+                "ext-date": "*",
+                "ext-hash": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "ext-openssl": "*",
+                "ext-pcre": "*",
+                "ext-spl": "*",
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7",
+                "friendsofphp/php-cs-fixer": "^2.16",
+                "phpcompatibility/php-compatibility": "*",
+                "squizlabs/php_codesniffer": "^3.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "LeonardoRRC\\VotifierClient\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Manuele Vaccari",
+                    "email": "manuele.vaccari@gmail.com",
+                    "homepage": "https://github.com/D3strukt0r",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Leonardo RRC",
+                    "email": "bytessavvy@gmail.com",
+                    "homepage": "https://github.com/LeonardoRRC",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Simple Tool to send vote request to a server which has the Votifier plugin.",
+            "homepage": "https://github.com/LeonardoRRC/votifier-client-php",
+            "keywords": [
+                "minecraft",
+                "vote",
+                "votifier"
+            ],
+            "support": {
+                "email": "bytessavvy@gmail.com",
+                "issues": "https://github.com/LeonardoRRC/votifier-client-php/issues",
+                "source": "https://github.com/LeonardoRRC/votifier-client-php",
+                "wiki": "https://github.com/LeonardoRRC/votifier-client-php/wiki"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sponsors/D3strukt0r",
+                    "type": "github"
+                },
+                {
+                    "url": "https://patreon.com/d3strukt0r",
+                    "type": "patreon"
+                }
+            ],
+            "time": "2024-06-22T22:16:33+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {},
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.9.0"
+}

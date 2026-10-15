@@ -1,0 +1,37 @@
+{
+    "$schema": "./node_modules/@pterodactyl/sdk/manifest.schema.json",
+    "id": "votifier-tester",
+    "name": "Votifier Tester",
+    "version": "2.0.0",
+    "requires": {
+        "panel": "^2.0.0-dev",
+        "sdk": "^2.0.0-beta.4",
+        "php": "^8.3"
+    },
+    "description": "Send test votes to Votifier and NuVotifier listeners from the server page.",
+    "author": "The Quantum Development",
+    "icon": "icon.png",
+    "provider": "UK\\TheQuantum\\VotifierTester\\VotifierTesterProvider",
+    "autoload": {
+        "UK\\TheQuantum\\VotifierTester\\": "src"
+    },
+    "ui": {
+        "entry": "dist/client.js",
+        "mode": "native",
+        "prefix": "vt",
+        "screens": [
+            {
+                "id": "votifier",
+                "area": "server",
+                "path": "votifier",
+                "permission": [
+                    "ext.votifier-tester.send"
+                ],
+                "nav": {
+                    "label": "Votifier",
+                    "icon": "vote"
+                }
+            }
+        ]
+    }
+}

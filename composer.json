@@ -1,0 +1,20 @@
+{
+    "name": "uk.thequantum/votifier-tester",
+    "description": "Send test votes to Votifier and NuVotifier servers.",
+    "autoload": {
+        "psr-4": {
+            "UK\\TheQuantum\\VotifierTester\\": "src/"
+        }
+    },
+    "config": {
+        "autoloader-suffix": "VotifierTesterExtension"
+    },
+    "require": {
+        "leonardorrc/votifier-client-php": "^1.0"
+    },
+    "authors": [
+        {
+            "name": "The Quantum Development"
+        }
+    ]
+}
